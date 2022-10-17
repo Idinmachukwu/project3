@@ -1,0 +1,143 @@
+* {
+    font-family: ubuntu;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #1F43D4 0%, rgba(31, 67, 212, 0.5) 100%) no-repeat;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    width: 67%;
+    height: 100vh;
+    padding-top: 50px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info h1 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+.info p {
+    position: relative;
+    font-weight: 400;
+    font-size: 40px;
+    align-self: center;
+    padding-top: 100px;
+}
+
+.emphasis {
+    font-weight: 600;
+}
+
+figure {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.white {
+    width: 33%;
+    height: 100vh;
+    background: #ffffff;
+}
+
+.signup {
+    width: 80%;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.signup h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #1F43D4;
+    padding-bottom: 40px;
+}
+
+.de-emphasis {
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+label {
+    padding: 32px 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1F43D4;
+}
+
+input {
+    height: 56px;
+    margin-bottom: 16px;
+    border: none;
+    background: #EDF2F7;
+    border-radius: 4px;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+button {
+    height: 56px;
+    background: #F35667;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.login {
+    text-align: center;
+    font-style: italic;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+@media (max-width: 1080px) {
+    
+    main {
+        display: flex;
+        justify-content: center;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .white {
+        width: 70%;
+    }
+
+    .info {
+        display: none;
+    }
+}
